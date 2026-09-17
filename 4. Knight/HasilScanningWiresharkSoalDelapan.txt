@@ -1,0 +1,281 @@
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.004630       10.83.2.2             10.83.3.2             FTP      86     Response: 220 (vsFTPd 3.0.5)
+
+Frame 4: Packet, 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 1, Ack: 1, Len: 20
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.004931       10.83.3.2             10.83.2.2             FTP      78     Request: USER alice
+
+Frame 6: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 1, Ack: 21, Len: 12
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.005355       10.83.2.2             10.83.3.2             FTP      100    Response: 331 Please specify the password.
+
+Frame 8: Packet, 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 21, Ack: 13, Len: 34
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.005577       10.83.3.2             10.83.2.2             FTP      78     Request: PASS alice
+
+Frame 9: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 13, Ack: 55, Len: 12
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.092955       10.83.2.2             10.83.3.2             FTP      89     Response: 230 Login successful.
+
+Frame 11: Packet, 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 55, Ack: 25, Len: 23
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.093230       10.83.3.2             10.83.2.2             FTP      72     Request: SYST
+
+Frame 12: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 25, Ack: 78, Len: 6
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.093759       10.83.2.2             10.83.3.2             FTP      85     Response: 215 UNIX Type: L8
+
+Frame 14: Packet, 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 78, Ack: 31, Len: 19
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.093947       10.83.3.2             10.83.2.2             FTP      72     Request: FEAT
+
+Frame 15: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 31, Ack: 97, Len: 6
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.094415       10.83.2.2             10.83.3.2             FTP      81     Response: 211-Features:
+
+Frame 16: Packet, 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 97, Ack: 37, Len: 15
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.094433       10.83.2.2             10.83.3.2             FTP      73     Response:  EPRT
+
+Frame 17: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 112, Ack: 37, Len: 7
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.094439       10.83.2.2             10.83.3.2             FTP      73     Response:  EPSV
+
+Frame 18: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 119, Ack: 37, Len: 7
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.094444       10.83.2.2             10.83.3.2             FTP      73     Response:  MDTM
+
+Frame 19: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 126, Ack: 37, Len: 7
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.094449       10.83.2.2             10.83.3.2             FTP      73     Response:  PASV
+
+Frame 20: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 133, Ack: 37, Len: 7
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.094455       10.83.2.2             10.83.3.2             FTP      80     Response:  REST STREAM
+
+Frame 21: Packet, 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 140, Ack: 37, Len: 14
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.094500       10.83.2.2             10.83.3.2             FTP      73     Response:  SIZE
+
+Frame 22: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 154, Ack: 37, Len: 7
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.094506       10.83.2.2             10.83.3.2             FTP      73     Response:  TVFS
+
+Frame 23: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 161, Ack: 37, Len: 7
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.094510       10.83.2.2             10.83.3.2             FTP      75     Response: 211 End
+
+Frame 24: Packet, 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 168, Ack: 37, Len: 9
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.094834       10.83.3.2             10.83.2.2             FTP      74     Request: TYPE I
+
+Frame 27: Packet, 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 37, Ack: 177, Len: 8
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.095099       10.83.2.2             10.83.3.2             FTP      97     Response: 200 Switching to Binary mode.
+
+Frame 28: Packet, 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 177, Ack: 45, Len: 31
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.095422       10.83.3.2             10.83.2.2             FTP      72     Request: EPSV
+
+Frame 29: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 45, Ack: 208, Len: 6
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.095828       10.83.2.2             10.83.3.2             FTP      114    Response: 229 Entering Extended Passive Mode (|||40017|)
+
+Frame 30: Packet, 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 208, Ack: 51, Len: 48
+File Transfer Protocol (FTP)
+[Current working directory: ]
+[Command: STOR knights_report.txt]
+[Command frame: 34]
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.096645       10.83.3.2             10.83.2.2             FTP      91     Request: STOR knights_report.txt
+
+Frame 34: Packet, 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 51, Ack: 256, Len: 25
+File Transfer Protocol (FTP)
+[Current working directory: ]
+[Command response frames: 1]
+[Command response bytes: 1111]
+[Command response first frame: 36]
+[Command response last frame: 36]
+[Setup frame: 30]
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.097275       10.83.2.2             10.83.3.2             FTP      88     Response: 150 Ok to send data.
+
+Frame 35: Packet, 88 bytes on wire (704 bits), 88 bytes captured (704 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 256, Ack: 76, Len: 22
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.097573       10.83.3.2             10.83.2.2             FTP-DATA 1177   FTP Data: 1111 bytes (EPASV) (STOR knights_report.txt)
+
+Frame 36: Packet, 1177 bytes on wire (9416 bits), 1177 bytes captured (9416 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 54228, Dst Port: 40017, Seq: 1, Ack: 1, Len: 1111
+FTP Data (1111 bytes data)
+[Setup frame: 30]
+[Setup method: EPASV]
+[Command: STOR knights_report.txt]
+Command frame: 34
+[Current working directory: ]
+Line-based text data (37 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 0.098205       10.83.2.2             10.83.3.2             FTP      90     Response: 226 Transfer complete.
+
+Frame 41: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 278, Ack: 76, Len: 24
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 0.098448       10.83.3.2             10.83.2.2             FTP      72     Request: QUIT
+
+Frame 43: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface -, id 0
+Ethernet II, Src: 02:42:97:ff:54:00 (02:42:97:ff:54:00), Dst: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03)
+Internet Protocol Version 4, Src: 10.83.3.2, Dst: 10.83.2.2
+Transmission Control Protocol, Src Port: 56606, Dst Port: 21, Seq: 76, Ack: 302, Len: 6
+File Transfer Protocol (FTP)
+[Current working directory: ]
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.098613       10.83.2.2             10.83.3.2             FTP      80     Response: 221 Goodbye.
+
+Frame 44: Packet, 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface -, id 0
+Ethernet II, Src: 02:42:5f:f9:5f:03 (02:42:5f:f9:5f:03), Dst: 02:42:97:ff:54:00 (02:42:97:ff:54:00)
+Internet Protocol Version 4, Src: 10.83.2.2, Dst: 10.83.3.2
+Transmission Control Protocol, Src Port: 21, Dst Port: 56606, Seq: 302, Ack: 82, Len: 14
+File Transfer Protocol (FTP)
+[Current working directory: ]
