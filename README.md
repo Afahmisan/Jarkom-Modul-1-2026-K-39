@@ -1,5 +1,10 @@
 # Jarkom-Modul-1-2026-K-39
 
+| Nama | NRP |
+|---|---|
+| Asfia Fahmisan | 5027251043 |
+| Muhammad Atallah Mas'udi | 5027251071 |
+
 ## Soal 1
 
 Untuk mempersiapkan pembangunan The Wired, Lain yang berperan sebagai Router membuat tiga Switch/Gateway: Switch 1 menuju dua Entitas yaitu Alice dan Mika, Switch 2 menuju Chisa, sedangkan Switch 3 menuju Knights dan Eiri. Kelima Entitas tersebut dikonfigurasi sebagai Client di GNS3. [GUNAKAN PREFIX IP MASING-MASING KELOMPOK]
